@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Security Validation Pipelines') {
             steps {
-                git url: 'https://github.com/rosehony/security_validation_pipelines.git', branch: 'main'
+                git url: 'https://github.com/Khashika14/-Devops-Pipeline/tree/main', branch: 'main'
             }
         }
 
